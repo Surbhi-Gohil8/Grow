@@ -1,4 +1,7 @@
 import React from 'react';
+import Image from 'next/image';
+
+
 
 const Area: React.FC = () => {
   return (
@@ -26,11 +29,13 @@ const Area: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
         {/* Card 1 */}
         <div className="text-center">
-          <img
-            src="/images/Health.jpg"
-            alt="Healthcare Providers"
-            className="w-64 h-64 object-cover rounded-full mx-auto mb-6"
-          />
+      <Image
+  src="/images/Health.jpg"
+  alt="Healthcare Providers"
+  width={256} // same as w-64
+  height={256} // same as h-64
+  className="w-64 h-64 object-cover rounded-full mx-auto mb-6"
+/>
           <h3 className="text-xl font-serif font-medium mb-3">
             Therapy for Healthcare Providers and Students
           </h3>
@@ -43,27 +48,31 @@ const Area: React.FC = () => {
 
         {/* Card 2 */}
         <div className="text-center">
-          <img
-            src="/images/trauma.jpg"
-            alt="Trauma and Grief"
-            className="w-64 h-64 object-cover rounded-full mx-auto mb-6"
-          />
+              <Image
+  src="/images/trauma.jpg"
+  alt="Healthcare Providers"
+  width={256} // same as w-64
+  height={256} // same as h-64
+  className="w-64 h-64 object-cover rounded-full mx-auto mb-6"
+/>
           <h3 className="text-xl font-serif font-medium mb-3">
             Therapy for Trauma and Grief
           </h3>
           <p className="text-sm text-[#4a4a4a] px-4 leading-relaxed">
-            Life’s challenges, whether a difficult childhood, a traumatic event, or the loss of someone meaningful, can lead
+            Life&apos;s challenges, whether a difficult childhood, a traumatic event, or the loss of someone meaningful, can lead
             to profound emotional impact. Therapy offers space to process these experiences and find grounding and meaning.
           </p>
         </div>
 
         {/* Card 3 */}
         <div className="text-center">
-          <img
-            src="/images/flag.jpg"
-            alt="Immigrant Families"
-            className="w-64 h-64 object-cover rounded-full mx-auto mb-6"
-          />
+               <Image
+  src="/images/flag.jpg"
+  alt="Healthcare Providers"
+  width={256} // same as w-64
+  height={256} // same as h-64
+  className="w-64 h-64 object-cover rounded-full mx-auto mb-6"
+/>
           <h3 className="text-xl font-serif font-medium mb-3">
             Therapy for Second Generation Individuals In Immigrant Families
           </h3>

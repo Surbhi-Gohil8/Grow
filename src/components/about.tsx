@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
+import ladyImage from '../../public/images/lady2.png'; // Adjust the path as necessary
 
 const About: React.FC = () => {
   return (
@@ -33,14 +34,15 @@ const About: React.FC = () => {
 
         {/* Image Section */}
         <div className="flex justify-center">
-          <Image
-            src="/images/lady2.png" // <-- Replace with your actual image path
-            alt="Dr. Jennifer Hahm"
-            width={400}
-            height={500}
-            className="rounded-lg object-cover shadow-lg"
-            priority
-          />
+      <Image
+  src={ladyImage}
+  alt="Dr. Jennifer Hahm"
+  width={400}
+  height={500}
+  className="rounded-lg object-cover shadow-lg"
+  priority
+/>
+
         </div>
       </div>
     </section>

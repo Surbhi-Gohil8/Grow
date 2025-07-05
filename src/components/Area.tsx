@@ -16,7 +16,7 @@ const Area: React.FC = () => {
       <p className="mt-10 max-w-4xl mx-auto text-lg sm:text-xl leading-relaxed text-[#4a4a4a] font-light">
         You may be led to therapy by anxiety, depression, relationship stress, past or recent trauma, grief and loss,
         self-esteem issues, or challenges with family, parenting, or parental relationships.
-        Whatever the source of your stress, you don’t have to face it alone. Therapy offers you the time and space to work toward
+        Whatever the source of your stress, you don't have to face it alone. Therapy offers you the time and space to work toward
         <br /> wellness and peace.
       </p>
 
@@ -41,7 +41,7 @@ const Area: React.FC = () => {
           </h3>
           <p className="text-sm text-[#4a4a4a] px-4 leading-relaxed">
             The care you provide for others may be driving you to seek therapy, whether due to burnout, compassion fatigue,
-            imposter syndrome, people-pleasing tendencies, or perfectionism. Whether you're in pre-professional school or reflecting
+            imposter syndrome, people-pleasing tendencies, or perfectionism. Whether `you're` in pre-professional school or reflecting
             on a long career, we can address the unique stressors of your professional life.
           </p>
         </div>
@@ -59,7 +59,7 @@ const Area: React.FC = () => {
             Therapy for Trauma and Grief
           </h3>
           <p className="text-sm text-[#4a4a4a] px-4 leading-relaxed">
-            Life&apos;s challenges, whether a difficult childhood, a traumatic event, or the loss of someone meaningful, can lead
+            `Life's` challenges, whether a difficult childhood, a traumatic event, or the loss of someone meaningful, can lead
             to profound emotional impact. Therapy offers space to process these experiences and find grounding and meaning.
           </p>
         </div>

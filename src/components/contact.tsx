@@ -163,6 +163,7 @@ const Contact: React.FC = () => {
           <button
             type="submit"
             className="w-full bg-green-900 text-white py-2 rounded-md hover:bg-green-800 transition"
+          onClick={() => alert("Submitted")}
           >
             Submit
           </button>
